@@ -5,11 +5,11 @@ html,body {
     font-family: 'Cairo', sans-serif;
 }
 
-img {
+/* img {
     max-width: 100%;
-}
+} */
 
-/*strat navbarlogo */
+/*strat navbarlogo index.html */
 .navbar-brand img {
     width: 100px;
 }
@@ -129,10 +129,16 @@ h6 {
     display: block;
 }
 
-span {
-    width: 10px;
-    font-size: 20px;
+.owl-prev span {
+    padding: 5px;
+    font-size: 30px;
 }
+
+.owl-next span {
+    padding: 5px;
+    font-size: 30px;
+}
+
 .owl-theme .owl-dots {
     display: none;
 }
@@ -195,8 +201,19 @@ h4 {
 
 /* start work */
 
+
+a {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+
+
 .work {
     background-image: url(../imgs/bg30-Ar1web.gif);
+    position: relative;
 }
 
 .work .box {
@@ -243,6 +260,7 @@ h4 {
 /* start micro */
 .micro {
     background-color: white;
+    position: relative;
 }
 
 .micro .box {
@@ -405,6 +423,458 @@ font-weight: 400;
 
 }
 
+/* end index html  */
+
+
+/* start micro html  */
+
+/* comment */
+
+.main-title1 h1 {
+    border-right: 3.5px solid #3AADE6;
+    height: 30px;
+}
+
+.main-title1 {
+    background-image: url(../imgs/bg30-Ar1web.gif);
+}
+
+h1 {
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+/* start work */
+
+
+
+.box1 .img-fluid1 {
+    border-radius: 20px 20px;
+    box-shadow: 20px;
+    box-shadow: 1px 6px 10px #dcdcdc;
+}
+
+
+.box1 .img-fluid1 {
+    padding-top: 30px;
+}
+
+/* start micro */
+
+.micro1 {
+    position: relative;
+}
+
+
+/* .row > * {
+
+    margin-top: 20px;
+    padding-bottom: 30px;
+} */
+
+.micro1 .box1 {
+    border-radius: 20px 20px;
+    box-shadow: 20px;
+    box-shadow: 1px 6px 10px #a4a4a4;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.title-micro1 {
+    font-size: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 30px;
+    line-height: 40px;
+}
+
+.row.d-flex {
+    justify-content: space-around;
+}
+
+/* end micro html  */
+
+
+/* start doc html  */
+
+/* start title */
+
+
+/* .main-title-2 h8 {
+    border-right: 3px solid #3AADE6;
+    margin-top: 15px;
+    height: 40px;
+}
+
+h8 {
+    font-size: 30px;
+    padding-right: 10px;
+} */
+
+.main-title-2 h8 {
+    border-right: 3.5px solid #3AADE6;
+    height: 35px;
+    display:inline-block
+}
+
+
+h8 {
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+/* start work */
+
+
+.box .img-fluid2 {
+    border-radius: 20px 20px;
+}
+
+
+.box .img-fluid2 {
+    padding-top: 0px;
+}
+
+/* start micro */
+
+a {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+
+.micro2 {
+    background-image: url(../imgs/articles.jpg);
+    background-blend-mode: screen;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: top;
+    background-size: 100%;
+}
+
+.micro2 .box {
+    border-radius: 20px 20px;
+    box-shadow: 20px;
+    box-shadow: 1px 6px 10px #a4a4a4;
+    padding-bottom: 10px;
+}
+
+.title-micro2 {
+    font-size: 20px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+
+
+/* start pagination */
+
+.pag-2 {
+    padding-top: 40px;
+    padding-bottom: 80px;
+    cursor: pointer;
+    text-align: center;
+    user-select: none;
+    padding-right: 550px;
+}
+
+.page-link:hover {
+    background-color: #007BFF;
+    color: white;
+}
+
+.active2 {
+    background-color: #007BFF;
+}
+
+.disabled2 {
+    background: white;
+    color: #007BFF;
+}
+
+
+/* end doc html  */
+
+/* start work html  */
+
+/* start title */
+
+
+.main-title-3 {
+    background-image: url(../imgs/bg30-Ar1web.gif);
+}
+
+.main-title-3 h9 {
+    border-right: 3.5px solid #3AADE6;
+    height: 35px;
+    display:inline-block
+}
+
+h9 {
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+
+/* start pagination */
+
+.pag-3 {
+    padding-top: 10px;
+    cursor: pointer;
+    text-align: center;
+    user-select: none;
+    padding-right: 550px;
+}
+
+.page-link:hover {
+    background-color: #007BFF;
+    color: white;
+}
+
+.active3 {
+    background-color: #007BFF;
+}
+
+.disabled3 {
+    background: white;
+    color: #007BFF;
+}
+
+
+/* end work html  */
+
+
+
+/* start one html  */
+
+/* start section two */
+
+.main-title4 h10 {
+    border-right: 3.5px solid #3AADE6;
+    margin-top: 15px;
+    height: 40px;
+}
+
+h10 {
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+
+.hello img {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 500px;
+}
+
+.img-fluid4 {
+    padding-top: 20px;
+}
+
+.left-hello p {
+    margin-left: 30px;
+    padding-right: 110px;
+    padding-top: 150px;
+    line-height: 3rem;
+    font-size: 1.5rem;
+}
+
+/* start paragraph */
+
+.present-4 {
+    background-image: url(../imgs/details-bg.png);
+    background-size: 100% 100%;
+    background-blend-mode: screen;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.t-4 {
+    font-size: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: white;
+}
+
+/* start card-carousel  */
+
+
+.card-carousel {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    position: relative;
+
+}
+
+#fa,#fa{
+    cursor: pointer;
+}
+
+.card-carousel .my-card {
+
+    width: 12rem;
+
+    position: relative;
+
+    z-index: 1;
+
+    -webkit-transform: scale(0.6) translateY(-2rem);
+
+    transform: scale(0.6) translateY(-2rem);
+
+    opacity: 0;
+
+    cursor: pointer;
+
+    pointer-events: none;
+
+    transition: 1s;
+}
+
+.card-carousel .my-card:after {
+
+    content: '';
+
+    position: absolute;
+
+    height: 2px;
+
+    width: 100%;
+
+    border-radius: 100%;
+
+    background-color: rgba(0,0,0,0.3);
+
+    bottom: -5rem;
+
+    -webkit-filter: blur(4px);
+
+    filter: blur(4px);
+
+}
+
+.card-carousel .my-card.active {
+
+    z-index: 3;
+
+    -webkit-transform: scale(1) translateY(0) translateX(0);
+
+    transform: scale(1) translateY(0) translateX(0);
+
+    opacity: 1;
+
+    pointer-events: auto;
+
+    transition: 1s;
+
+}
+
+.card-carousel .my-card.prev, .card-carousel .my-card.next {
+
+    z-index: 2;
+
+    -webkit-transform: scale(0.8) translateY(-1rem) translateX(0);
+
+    transform: scale(0.8) translateY(-1rem) translateX(0);
+
+    opacity: 0.6;
+
+    pointer-events: auto;
+
+    transition: 1s;
+}
+
+
+
+.card-carousel .my-card:nth-child(0):before {
+    content: '0';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 3rem;
+    font-weight: 300;
+    color: #fff;
+  }
+  
+  .card-carousel .my-card:nth-child(1):before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 3rem;
+    font-weight: 300;
+    color: #fff;
+  }
+  
+  .card-carousel .my-card:nth-child(2):before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 3rem;
+    font-weight: 300;
+    color: #fff;
+  }
+  
+  .card-carousel .my-card:nth-child(3):before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 3rem;
+    font-weight: 300;
+    color: #fff;
+  }
+  
+  .card-carousel .my-card:nth-child(4):before {
+    content: '4';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 3rem;
+    font-weight: 300;
+    color: #fff;
+  }
+
+
+/* icon-slider-angle */
+
+.text-center.\34 {
+    direction: ltr;
+}
+
+.fa.fa-angle-left {
+    color: white;
+    border-radius: 5px 5px;
+}
+
+.fa.fa-angle-right {
+    color: white;
+    border-radius: 5px 5px;
+}
+
+/* end one html  */
+
 
 @media screen and (max-width: 760px) {
     
@@ -440,6 +910,9 @@ font-weight: 400;
     }
     .col-lg-4 {
         padding: 3px;
+    }
+    .pagination {
+        padding-right: 150px;
     }
 
 }
