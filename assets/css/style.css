@@ -272,9 +272,9 @@ a {
 
 .title-micro {
     font-size: 20px;
-    padding-right: 25px;
+    /* padding-right: 25px;
     padding-left: 25px;
-    padding-top: 10px;
+    padding-top: 10px; */
 }
 
 .bttn {
@@ -304,13 +304,8 @@ a {
     background-color: #233142;
     border: 1px solid;
     font-size: 20px;
-    margin-bottom: 20px;
 }
 
-h7 {
-    padding-right: 330px;
-    opacity: 0.5;
-}
 
 .row.d-flex {
     justify-content: space-around;
@@ -483,10 +478,11 @@ h1 {
 
 .title-micro1 {
     font-size: 20px;
-    padding-right: 100px;
-    padding-left: 100px;
-    padding-top: 30px;
     line-height: 40px;
+}
+
+.box1.bg-white .box {
+    padding: 30px;
 }
 
 .row.d-flex {
@@ -579,7 +575,6 @@ a {
     cursor: pointer;
     text-align: center;
     user-select: none;
-    padding-right: 550px;
 }
 
 .page-link:hover {
@@ -809,9 +804,8 @@ h10 {
     font-size: 3rem;
     font-weight: 300;
     color: #fff;
-  }
-  
-  .card-carousel .my-card:nth-child(1):before {
+}
+.card-carousel .my-card:nth-child(1):before {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -820,9 +814,9 @@ h10 {
     font-size: 3rem;
     font-weight: 300;
     color: #fff;
-  }
-  
-  .card-carousel .my-card:nth-child(2):before {
+}
+
+.card-carousel .my-card:nth-child(2):before {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -831,9 +825,9 @@ h10 {
     font-size: 3rem;
     font-weight: 300;
     color: #fff;
-  }
-  
-  .card-carousel .my-card:nth-child(3):before {
+}
+
+.card-carousel .my-card:nth-child(3):before {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -842,9 +836,9 @@ h10 {
     font-size: 3rem;
     font-weight: 300;
     color: #fff;
-  }
-  
-  .card-carousel .my-card:nth-child(4):before {
+}
+
+.card-carousel .my-card:nth-child(4):before {
     content: '4';
     position: absolute;
     top: 50%;
@@ -854,7 +848,7 @@ h10 {
     font-size: 3rem;
     font-weight: 300;
     color: #fff;
-  }
+}
 
 
 /* icon-slider-angle */
@@ -911,8 +905,15 @@ h10 {
     .col-lg-4 {
         padding: 3px;
     }
-    .pagination {
-        padding-right: 150px;
+    .pagination.pag-2 {
+        justify-content: center;
     }
 
+    /* button/ */
+    .btn {
+        width: 215px;
+    }
+    .seen {
+        justify-content: center;
+    }
 }
