@@ -1,13 +1,7 @@
 
-
-
 html,body {
     font-family: 'Cairo', sans-serif;
 }
-
-/* img {
-    max-width: 100%;
-} */
 
 /*strat navbarlogo index.html */
 .navbar-brand img {
@@ -55,22 +49,26 @@ html,body {
 
 
 .left-hello p {
-    margin-left: 30px;
-    padding-right: 110px;
+    /* margin-left: 30px;
+    padding-right: 110px; */
     line-height: 3rem;
     font-size: 1.5rem;
 }
 
+.title {
+    padding-left: 30px;
+}
+
 /* start carousel */
 
-h6 {
+/* h6 {
     font-size: calc(1.325rem + .9vw);
     margin-top: 0;
     margin-bottom: .5rem;
     font-weight: 500;
     line-height: 1.2;
     text-align: center;
-}
+} */
 
 .presentt {
     background-image: url(../imgs/we-offer.png);
@@ -143,10 +141,6 @@ h6 {
     display: none;
 }
 
-h4 {
-    text-align: center;
-    font-weight: 500
-}
 
 
 
@@ -216,6 +210,11 @@ a {
     position: relative;
 }
 
+.work h1 {
+    border-right: 3.5px solid #3AADE6;
+    height: 30px;
+}
+
 .work .box {
     border-radius: 20px 20px;
     box-shadow: 20px;
@@ -272,23 +271,8 @@ a {
 
 .title-micro {
     font-size: 20px;
-    /* padding-right: 25px;
-    padding-left: 25px;
-    padding-top: 10px; */
 }
 
-.bttn {
-    border-radius: 70rem; 
-    background-color: var(--green-color);
-    color: var(--red-color);
-    padding: 0.5rem 1rem;
-    color: white;
-    background-color: #233142;
-    text-align: center;
-    font-size: 15px;
-    width: 200px;
-    margin-top: 10px;
-}
 
 .text-center .bttn:hover {
     color: rgb(10, 0, 0);
@@ -359,7 +343,6 @@ a {
 
 .footer-logo {
     width: 70px;
-    margin-right: -113px
 }
 
 h5 {
@@ -371,20 +354,11 @@ h5 {
     padding-right: 33px;
 }
 
-.p-h5 {
-    text-align: center;
-    font-size: 10px;
-    color: white;
-    padding-right: 101px;
-}
-
-.pp-h5 {
+.about-us h2{
     text-transform: uppercase;
     text-align: center;
     font-size: 15px;
     color: white;
-    padding-right: 52px;
-    padding-top: 15px;
 }
 
 .fa-brands.fa-whatsapp {
@@ -425,12 +399,12 @@ font-weight: 400;
 
 /* comment */
 
-.main-title1 h1 {
+.head-text h1 {
     border-right: 3.5px solid #3AADE6;
     height: 30px;
 }
 
-.main-title1 {
+.head-text {
     background-image: url(../imgs/bg30-Ar1web.gif);
 }
 
@@ -442,10 +416,8 @@ h1 {
 /* start work */
 
 
-
 .box1 .img-fluid1 {
     border-radius: 20px 20px;
-    box-shadow: 20px;
     box-shadow: 1px 6px 10px #dcdcdc;
 }
 
@@ -461,12 +433,6 @@ h1 {
 }
 
 
-/* .row > * {
-
-    margin-top: 20px;
-    padding-bottom: 30px;
-} */
-
 .micro1 .box1 {
     border-radius: 20px 20px;
     box-shadow: 20px;
@@ -474,11 +440,6 @@ h1 {
     padding-bottom: 10px;
     padding-top: 30px;
     padding-bottom: 30px;
-}
-
-.title-micro1 {
-    font-size: 20px;
-    line-height: 40px;
 }
 
 .box1.bg-white .box {
@@ -497,27 +458,10 @@ h1 {
 /* start title */
 
 
-/* .main-title-2 h8 {
-    border-right: 3px solid #3AADE6;
-    margin-top: 15px;
-    height: 40px;
-}
 
-h8 {
-    font-size: 30px;
-    padding-right: 10px;
-} */
-
-.main-title-2 h8 {
+.doc h1 {
     border-right: 3.5px solid #3AADE6;
-    height: 35px;
-    display:inline-block
-}
-
-
-h8 {
-    font-size: 20px;
-    padding-right: 10px;
+    height: 30px;
 }
 
 /* start work */
@@ -542,7 +486,7 @@ a {
     z-index: 2;
 }
 
-.micro2 {
+.document {
     background-image: url(../imgs/articles.jpg);
     background-blend-mode: screen;
     position: relative;
@@ -552,14 +496,14 @@ a {
     background-size: 100%;
 }
 
-.micro2 .box {
+.document .box {
     border-radius: 20px 20px;
     box-shadow: 20px;
     box-shadow: 1px 6px 10px #a4a4a4;
     padding-bottom: 10px;
 }
 
-.title-micro2 {
+.title-document {
     font-size: 20px;
     padding-right: 25px;
     padding-left: 25px;
@@ -569,13 +513,6 @@ a {
 
 /* start pagination */
 
-.pag-2 {
-    padding-top: 40px;
-    padding-bottom: 80px;
-    cursor: pointer;
-    text-align: center;
-    user-select: none;
-}
 
 .page-link:hover {
     background-color: #007BFF;
@@ -603,16 +540,6 @@ a {
     background-image: url(../imgs/bg30-Ar1web.gif);
 }
 
-.main-title-3 h9 {
-    border-right: 3.5px solid #3AADE6;
-    height: 35px;
-    display:inline-block
-}
-
-h9 {
-    font-size: 20px;
-    padding-right: 10px;
-}
 
 
 /* start pagination */
@@ -648,15 +575,9 @@ h9 {
 
 /* start section two */
 
-.main-title4 h10 {
+.one h1 {
     border-right: 3.5px solid #3AADE6;
-    margin-top: 15px;
-    height: 40px;
-}
-
-h10 {
-    font-size: 20px;
-    padding-right: 10px;
+    height: 30px;
 }
 
 
@@ -667,21 +588,11 @@ h10 {
     width: 500px;
 }
 
-.img-fluid4 {
-    padding-top: 20px;
-}
 
-.left-hello p {
-    margin-left: 30px;
-    padding-right: 110px;
-    padding-top: 150px;
-    line-height: 3rem;
-    font-size: 1.5rem;
-}
 
 /* start paragraph */
 
-.present-4 {
+.services {
     background-image: url(../imgs/details-bg.png);
     background-size: 100% 100%;
     background-blend-mode: screen;
@@ -690,14 +601,6 @@ h10 {
     background-position: center;
     margin-top: 20px;
     margin-bottom: 20px;
-}
-
-.t-4 {
-    font-size: 20px;
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-top: 10px;
-    color: white;
 }
 
 /* start card-carousel  */
